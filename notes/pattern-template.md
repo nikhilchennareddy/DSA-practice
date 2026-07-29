@@ -5,10 +5,7 @@
 Leave this blank until you've solved 3-4 problems with the pattern.>
 
 ## The shape
-
-```java
 <skeleton with everything problem-specific stripped out>
-```
 
 ## Invariant
 <what stays true at every step; the thing you'd assert in a debugger>
