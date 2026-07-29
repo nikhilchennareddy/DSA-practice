@@ -1,21 +1,32 @@
-/**
+// LeetCode <NUMBER> — <Problem Title>
+// https://leetcode.com/problems/<slug>/
+//
+// Pattern:  <must match a filename in notes/ exactly, e.g. "sliding window">
+// Approach: <one or two lines — what the algorithm actually does>
+// Time:     O(?)      Space: O(?)
+//
+// Insight:  <why the naive approach is wasteful and what this exploits>
+// Gotcha:   <the thing that broke the first time you ran it>
+// Solved:   <YYYY-MM-DD> | <minutes> min | hint needed: <yes/no>
 
-LeetCode 121 - Best Time To Buy and Sell Stock
-https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+import java.util.*;
 
-Pattern: running minimum, single pass
+public class Template {
 
-v1 - solveBrute - compare every pair (i, j) where j > i
-Time: O(n^2) Space: O(1)
-Verdict: Time Limit Exceeded past ~10^4 elements
+    // ---------- solution ----------
 
-v2 - solve - track the lowest price seen so far; profit = price - minSoFar
-Time: O(n) Space: O(1)
-Verdict: accepted
+    static int solve(int[] nums) {
+        // your code
+        return 0;
+    }
 
+    // ---------- local tests ----------
+    // Expected value in a trailing comment, so a wrong answer is obvious
+    // without reading back through the problem statement.
 
-Insight: you never need to look backwards - the cheapest price so far is all the history that matters
-Gotcha: compute profit BEFORE updating minSoFar, or you sell on the same day
-Solved: 2026-07-28 | 30 mins | hint needed: no
-
-**/
+    public static void main(String[] args) {
+        System.out.println(solve(new int[]{1, 2, 3}));   // expected: 6
+        System.out.println(solve(new int[]{}));          // expected: 0   <- edge case
+        System.out.println(solve(new int[]{-5}));        // expected: -5  <- edge case
+    }
+}
