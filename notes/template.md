@@ -24,7 +24,15 @@
 // Related problems: <list of problem numbers/titles>
 //
 // Solved:   <YYYY-MM-DD> | <minutes> min | hint needed: <yes/no>
+// Next:     <YYYY-MM-DD>   <- set from the table below; delete this line on a third clean run
 // References: <links / discussion / solution posts>
+//
+// Review schedule (set Next: from how THIS attempt went):
+//   How the last attempt went        Next in
+//   Needed a hint                    3 days
+//   Clean but slow or shaky          1 week
+//   Clean and comfortable            3 weeks
+//   Third clean run                  Retire — delete the Next: line
 
 import java.util.*;
 
