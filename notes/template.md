@@ -1,21 +1,35 @@
-/**
+// LeetCode <NUMBER> — <Problem Title>
+// https://leetcode.com/problems/<slug>/
+//
 
-LeetCode 121 - Best Time To Buy and Sell Stock
-https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+// Pattern:  <must match a filename in notes/ exactly, e.g. "sliding window">
+// Approach: <one or two lines — what the algorithm actually does>
+// Time:     O(?)      Space: O(?)
 
-Pattern: running minimum, single pass
+// v1 - solveBrute - description
+Time: O(?) Space: O(?)
+Verdict: Time Limit Exceeded past
 
-v1 - solveBrute - compare every pair (i, j) where j > i
-Time: O(n^2) Space: O(1)
-Verdict: Time Limit Exceeded past ~10^4 elements
-
-v2 - solve - track the lowest price seen so far; profit = price - minSoFar
-Time: O(n) Space: O(1)
+// v2 - solve - description
+Time: O(?) Space: O(?)
 Verdict: accepted
 
 
-Insight: you never need to look backwards - the cheapest price so far is all the history that matters
-Gotcha: compute profit BEFORE updating minSoFar, or you sell on the same day
-Solved: 2026-07-28 | 30 mins | hint needed: no
+// Key Idea:  <why the naive approach is wasteful and what this exploits>
+// Pitfalls:  <the thing that broke the first time you ran it due to mistakes in logic / approach>
+// Traps:     <mistakes baited by language / system >
+// Solved:   <YYYY-MM-DD> | <minutes> min | hint needed: <yes/no> - retired (if Next is blank)
+// Next:     <YYYY-MM-DD> 
 
-**/
+// Review schedule (set Next: from how THIS attempt went):
+//   How the last attempt went        Next in
+//   Needed a hint                    3 days
+//   Clean but slow or shaky          1 week
+//   Clean and comfortable            3 weeks
+//   Third clean run                  Retire — delete the Next: line
+
+public static void main(String[] args) {
+        
+    }
+
+
