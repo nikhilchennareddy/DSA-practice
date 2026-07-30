@@ -5,14 +5,17 @@
 // Pattern:  <must match a filename in notes/ exactly, e.g. "sliding window">
 // Approach: <one or two lines — what the algorithm actually does>
 // Time:     O(?)      Space: O(?)
+// Execution Time: <Execution Time>
 
 // v1 - solveBrute - description
-Time: O(?) Space: O(?)
-Verdict: Time Limit Exceeded past
+// Time: O(?) Space: O(?)
+// Verdict: Time Limit Exceeded past
+// Execution Time: <Execution Time>
 
 // v2 - solve - description
-Time: O(?) Space: O(?)
-Verdict: accepted
+// Time: O(?) Space: O(?)
+// Verdict: accepted
+// Execution Time: <Execution Time>
 
 
 // Key Idea:  <why the naive approach is wasteful and what this exploits>
