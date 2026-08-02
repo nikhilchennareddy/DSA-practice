@@ -6,11 +6,13 @@
 // Key Idea:  <the one fact about this problem that makes a faster/simpler solution possible>
 // Approach:  <the concrete steps that turn the Key Idea into working code>
 
-// Pitfalls: (append one dated line per attempt; tag "(repeat)" if it's the same bug as an earlier date)
+// Pitfalls: (append one dated line per bug found, even multiple per attempt; tag "(repeat)" if it's the same bug as an earlier date)
 //   <YYYY-MM-DD>: <mistake in logic / approach that broke this attempt>
+//   <YYYY-MM-DD>: <another one, if this attempt had more than one>
 //
-// Traps: (append one dated line per attempt; tag "(repeat)" if it's the same bug as an earlier date)
+// Traps: (append one dated line per bug found, even multiple per attempt; tag "(repeat)" if it's the same bug as an earlier date)
 //   <YYYY-MM-DD>: <mistake baited by language / system that broke this attempt>
+//   <YYYY-MM-DD>: <another one, if this attempt had more than one>
 
 // Time:     O(?)      Space: O(?)
 // Execution Time: <Execution Time>
