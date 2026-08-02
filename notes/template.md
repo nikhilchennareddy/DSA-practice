@@ -6,8 +6,11 @@
 // Key Idea:  <the one fact about this problem that makes a faster/simpler solution possible>
 // Approach:  <the concrete steps that turn the Key Idea into working code>
 
-// Pitfalls:  <the thing that broke the first time you ran it due to mistakes in logic / approach>
-// Traps:     <mistakes baited by language / system >
+// Pitfalls: (append one dated line per attempt; tag "(repeat)" if it's the same bug as an earlier date)
+//   <YYYY-MM-DD>: <mistake in logic / approach that broke this attempt>
+//
+// Traps: (append one dated line per attempt; tag "(repeat)" if it's the same bug as an earlier date)
+//   <YYYY-MM-DD>: <mistake baited by language / system that broke this attempt>
 
 // Time:     O(?)      Space: O(?)
 // Execution Time: <Execution Time>

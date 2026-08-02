@@ -13,8 +13,8 @@ Leave this blank until you've solved 3-4 problems with the pattern.>
 ## Variants
 - <axis> — <what changes>
 
-## Traps
-- <bug you personally hit, and the fix>
+## Gotchas
+- [logic|language] <a bug you personally hit on a problem using this pattern, and the fix>
 
 ## Confused with
 <Other pattern> — <the question that separates them>
@@ -26,4 +26,4 @@ Typically O(?) time, O(?) space, because <reason>.
 - [FileName.java](../folder/FileName.java) — LC <n> — <one-line note on what was different>
 
 ## Mistakes I keep making
-- <the recurring bug>
+- <a Gotcha above that you hit again on a later problem, despite already having it written down>
