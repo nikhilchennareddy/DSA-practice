@@ -3,7 +3,12 @@
 //
 
 // Pattern:  <must match a filename in notes/ exactly, e.g. "sliding window">
-// Approach: <one or two lines — what the algorithm actually does>
+// Key Idea:  <the one fact about this problem that makes a faster/simpler solution possible>
+// Approach:  <the concrete steps that turn the Key Idea into working code>
+
+// Pitfalls:  <the thing that broke the first time you ran it due to mistakes in logic / approach>
+// Traps:     <mistakes baited by language / system >
+
 // Time:     O(?)      Space: O(?)
 // Execution Time: <Execution Time>
 
@@ -18,9 +23,6 @@
 // Execution Time: <Execution Time>
 
 
-// Key Idea:  <why the naive approach is wasteful and what this exploits>
-// Pitfalls:  <the thing that broke the first time you ran it due to mistakes in logic / approach>
-// Traps:     <mistakes baited by language / system >
 // Solved:   <YYYY-MM-DD> | <minutes> min | hint needed: <yes/no> - retired (if Next is blank)
 // Next:     <YYYY-MM-DD>
 
