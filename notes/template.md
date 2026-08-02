@@ -72,6 +72,8 @@ public class Template {
     }
 
     public static void main(String[] args) {
+        // TODO: replace these with this problem's own examples and edge cases —
+        // the calls below exercise the unfinished stub above, not a real solution.
         expect("Example1", solve(new int[]{1, 2, 3}), /* expected */ 6);
         expect("Empty", solve(new int[]{}), /* expected */ 0);         // edge case
         expect("SingleNeg", solve(new int[]{-5}), /* expected */ -5);  // edge case
