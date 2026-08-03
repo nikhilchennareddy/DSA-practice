@@ -24,8 +24,9 @@ Leave this blank until you've solved 3-4 problems with the pattern.>
 
 ## Complexity
 Baseline: O(?) time, O(?) space, because <reason>.
-Shifts when: <what in a problem pushes it off the baseline — e.g. a sorted structure
-inside the window makes it O(n log k)>
+Shifts when:
+- <condition that changes complexity, and the resulting complexity>
+- <another condition, if this pattern has more than one>
 
 ## Problems
 - [FileName.java](../folder/FileName.java) — LC <n> — <one-line note on what was different>
