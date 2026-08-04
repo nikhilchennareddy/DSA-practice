@@ -1,10 +1,14 @@
 // LeetCode <NUMBER> — <Problem Title>
 // https://leetcode.com/problems/<slug>/
 //
-// Constraints: <n range, value ranges — important for complexity and choice of approach>
 
 // Pattern:  <must match a filename in notes/ exactly, e.g. "sliding window">
-// Approach: <one or two lines — what the algorithm actually does>
+// Key Idea:  <the one fact about this problem that makes a faster/simpler solution possible>
+// Approach:  <the concrete steps that turn the Key Idea into working code>
+
+// Pitfalls:  <the thing that broke the first time you ran it due to mistakes in logic / approach>
+// Traps:     <mistakes baited by language / system >
+
 // Time:     O(?)      Space: O(?)
 // Execution Time: <Execution Time>
 
@@ -19,9 +23,6 @@
 // Execution Time: <Execution Time>
 
 
-// Key Idea:  <why the naive approach is wasteful and what this exploits>
-// Pitfalls:  <the thing that broke the first time you ran it due to mistakes in logic / approach>
-// Traps:     <mistakes baited by language / system >
 // Solved:   <YYYY-MM-DD> | <minutes> min | hint needed: <yes/no> - retired (if Next is blank)
 // Next:     <YYYY-MM-DD>
 
@@ -46,19 +47,16 @@ class TreeNode {
 --------------------------------------------------------------- */
 
 // Rename this class to match the filename (e.g. TwoSum.java -> public class TwoSum).
-public class LeetCodeTemplate {
+public class Template {
 
     // ---------- solution ----------
-    // Rename method and signature to match problem if helpful.
+
     static int solve(int[] nums) {
-        // Implementation
+        // your code
         return 0;
     }
 
-    // If the problem returns a complex type, add overloaded helper methods
-    // or sample converters (e.g., build ListNode from array).
-
-    // ---------- tests / local harness ----------
+    // ---------- local tests ----------
     // Helper to print expected vs actual for easy visual diffs.
     // Uses deepEquals/deepToString so it works correctly for arrays too,
     // not just scalars (Objects.equals on int[] compares references).
@@ -74,12 +72,10 @@ public class LeetCodeTemplate {
     }
 
     public static void main(String[] args) {
-        // basic tests
-        expect("Example1", solve(new int[]{1,2,3}), /* expected */ 6);
-        // edge cases
-        expect("Empty", solve(new int[]{}), /* expected */ 0);
-        expect("SingleNeg", solve(new int[]{-5}), /* expected */ -5);
-        // larger / stress case (optional)
-        // expect("Large", solve(largeInput), /* expected */ ???);
+        // TODO: replace these with this problem's own examples and edge cases —
+        // the calls below exercise the unfinished stub above, not a real solution.
+        expect("Example1", solve(new int[]{1, 2, 3}), /* expected */ 6);
+        expect("Empty", solve(new int[]{}), /* expected */ 0);         // edge case
+        expect("SingleNeg", solve(new int[]{-5}), /* expected */ -5);  // edge case
     }
 }
